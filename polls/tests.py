@@ -1,3 +1,5 @@
-from django.test import TestCase
+import numpy as np
+import time, sys
+a = np.array([(1,2,3), (4,5,6)])
 
-# Create your tests here.
+print(a[0:,2])
